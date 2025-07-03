@@ -1,0 +1,48 @@
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 开发环境
+venv/
+.venv/
+env/
+.env
+.python-version
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 数据/模型文件
+*.pth
+*.pt
+*.bin
+*.h5
+*.zip
+*.tar.gz
+data/
+datasets/
+models/
+checkpoints/
+
+# 日志/调试
+logs/
+*.log
+*.tmp
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# 特殊文件
+.mypy_cache/
+.pytest_cache/
